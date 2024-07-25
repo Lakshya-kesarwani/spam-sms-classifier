@@ -63,6 +63,6 @@ st.markdown("""
 </style>
 
 <div class="footer">
-    Made with ❤️ by Lakshya | © 2024
+    Made with ❤️ by Lakshya | July, 2024
 </div>
 """, unsafe_allow_html=True)
