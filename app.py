@@ -44,14 +44,21 @@ if st.button('Predict'):
 
 
 st.markdown("""
+<style>
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0E1117;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+</style>
 
-
-
-
-
-
-
-
----
-Made by Lakshya
-""")
+<div class="footer">
+    Made with ❤️ by [name] | © 2024
+</div>
+""", unsafe_allow_html=True)
